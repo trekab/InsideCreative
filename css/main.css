@@ -79,14 +79,6 @@ form textarea {
 	border-bottom: 1px solid white;
 }
 
-footer {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
-	color: white;
-}
-
 .projectsTable {
 	display: table;
 }
@@ -100,6 +92,13 @@ footer {
 	text-align: center;
 }
 
+footer {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 footer span {
-	position: right;
+	width: 200px;
+	margin-left: 200px;
 }
