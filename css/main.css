@@ -40,10 +40,20 @@ nav a:hover {
 	margin-right: auto;
 	padding: 50px;
 	margin-top: 25px;
+	position: relative;
+	
 }
 
-.logo-images a:hover{
-	
+.logo-images .logo-glow {
+	display: none;
+	position: absolute;
+	top: 50px;
+    left: 50px;
+    z-index: 99;
+}
+
+.logo-images:hover .logo-glow {
+	display: inline;
 }
 
 .main-content {
