@@ -1,0 +1,105 @@
+@font-face {
+	font-family: Gravity;
+	src : url(../fonts/Gravity-Regular.otf);
+}
+
+body {
+	background-color: #1E0C0D;
+	color: white;
+	font-family: Gravity,sans-serif;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+ 	text-decoration: none;
+ 	margin: 60px;
+ 	padding-left: 5px;
+ 	padding-right: 5px;
+ 	padding-top: 2px;
+ 	padding-bottom: 2px;
+ 	color: white;
+ 	border: 1px solid #1d0c04;
+}
+
+nav a:hover {
+    border: 1px solid #C0822E;
+    border-radius: 0.2em;
+}
+
+.logo-images {
+	background-image: url(../images/image.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	margin-top: 25px;
+}
+
+.main-content {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	padding: 25px;
+}
+
+.form-input {
+	width: 700px;
+	border-radius: 0.5em;
+	height: 3em;
+}
+
+form textarea {
+	width: 700px;
+	height: 200px;
+	border-radius: 0.5em;
+}
+
+.name-input {
+	width: 343.5px;
+	border-radius: 0.5em;
+	height: 3em;
+}
+
+.input-btn {
+	width: 150px;
+	border-radius: 0.5em;
+	height: 2em;
+}
+
+.contacts {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px solid white;
+}
+
+footer {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	color: white;
+}
+
+.projectsTable {
+	display: table;
+}
+
+.tableRow {
+	display: table-row;
+}
+
+.tableCell {
+	display: table-cell;
+	text-align: center;
+}
+
+footer span {
+	position: right;
+}
