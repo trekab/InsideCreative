@@ -12,6 +12,7 @@ body {
 
 nav {
 	text-align: center;
+	margin-top: 20px;
 }
 
 nav a {
@@ -41,6 +42,10 @@ nav a:hover {
 	margin-top: 25px;
 }
 
+.logo-images a:hover{
+	
+}
+
 .main-content {
 	width: 700px;
 	margin-left: auto;
@@ -53,6 +58,10 @@ nav a:hover {
 	width: 700px;
 	border-radius: 0.5em;
 	height: 3em;
+}
+
+form {
+	letter-spacing: normal;
 }
 
 form textarea {
@@ -98,6 +107,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	letter-spacing: normal;
+	margin-bottom: 20px;
 }
 
 footer span {
